@@ -1,0 +1,14 @@
+Terminal 1 :
+
+ollama serve
+
+Terminal 2 :
+
+cd backend
+uvicorn main:app
+
+Terminal 3 : 
+
+cd frontend
+npm install
+npm run dev 
